@@ -44,7 +44,7 @@ a:hover {
 	background: url(../images/remove.png) no-repeat;
 	background-size: 20px 20px;
 	background-position: 50% 50%;
-	top: 10px;	
+	top: 10px;
 	right: 20px;
 	-webkit-transform: scale(0.8);
 	-moz-transform: scale(0.8);
@@ -69,7 +69,7 @@ a:hover {
 	margin: 0 10px;
 }
 
-.header .links a:hover { 
+.header .links a:hover {
 	color: #fff;
 }
 
@@ -86,7 +86,7 @@ a:hover {
 	margin-bottom: 75px;
 }
 
-.about:after {
+/* .about:after {
 	content: "Powered by";
 	position: absolute;
 	color: #ddd;
@@ -99,7 +99,7 @@ a:hover {
 	text-align: middle;
 	background: url(../images/poweredby.png) no-repeat right center;
 	background-size: 150px 25px;
-}
+} */
 
 .about p {
 	text-align: center;
@@ -114,7 +114,7 @@ a:hover {
 	margin-top: 35px;
 }
 
-.footer { 
+.footer {
 	max-width: 1024px;
 	width: 83%;
 	margin: 0 auto;
@@ -154,42 +154,42 @@ a:hover {
 
 @media only screen and (min-width: 720px) {
 
-		.header { 
+		.header {
 			padding: 0;
 		}
-		
+
 		.header .logo {
 			float: left;
 			margin-left: 3%;
 		}
-		
+
 		.header .links {
 			float: right;
 			margin-right: 70px;
 		}
-		
+
 		.header .links a {
 			padding: 0 10px;
 			line-height: 60px;
 			font-size: 13px;
 		}
-		
+
 		.header .links a:hover {
 			text-decoration: none;
 			background-color: #a94342;
 			color: #fff;
 		}
-		
-		.about { 
+
+		.about {
 			padding: 100px 0;
 		}
-			
+
 		.about:after {
 			right: 20px;
 			bottom: 30px;
 			margin-right: 0;
 		}
-		
+
 		.about p {
 			font-size: 18px;
 			line-height: 1.7;
