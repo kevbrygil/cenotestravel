@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shop>
+    <item>
+        <name>Product #1</name>
+        <price>10</price>
+        <sku>sku12345</sku>
+        <description>Product description information</description>
+        <rating>5</rating>
+        <category>cat1, cat2, cat3</category>
+        <thumbs>assets/pic01_1.jpg, assets/pic01_1.jpg</thumbs>
+        <photos>assets/pic01_1.jpg, assets/pic01_1.jpg, assets/pic01_1.jpg</photos>
+        <quantity min="1" max="10">1</quantity>
+        <shipping>1.5</shipping>
+        <options>
+            <option name="Some Option">
+                <entry value="Option_1">Option #1</entry>
+                <entry value="Option_2">Option #2</entry>
+                <entry value="Option_3">Option #3</entry>
+                <entry value="Option_4">Option #4</entry>
+            </option>
+            <option name="Price Option">
+                <entry value="Option_1" price="10">Option #1 - $10</entry>
+                <entry value="Option_2" price="20">Option #2 - $20</entry>
+                <entry value="Option_3" price="30">Option #3 - $30</entry>
+            </option>
+        </options>
+    </item>
+</shop>
